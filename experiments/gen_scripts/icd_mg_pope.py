@@ -27,7 +27,7 @@ def get_args_parser():
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--gvqa_image_root", type=str, default=None)
     parser.add_argument("--coco_image_root", type=str, default=None)
-    parser.add_argument("--question_folder", type=str, default="../data")
+    parser.add_argument("--question_folder", type=str, default="../data/pope")
     parser.add_argument("--save_folder", type=str, default="./pope_results/mg")
     parser.add_argument("--format", type=str, default="default", choices=["default", "no_format", "ow_format", "yn_format"])
     parser.add_argument("--cfg-path", required=True, help="path to configuration file.")

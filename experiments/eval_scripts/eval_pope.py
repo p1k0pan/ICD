@@ -117,7 +117,7 @@ def save_csv(results, output_file, path):
 
 def get_args_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--label_folder", type=str, default="../data")
+    parser.add_argument("--label_folder", type=str, default="../gen_scripts/data/pope")
     parser.add_argument("--ans_folder", type=str, default="../gen_scripts/pope_results/ib/icd")
     parser.add_argument("--format", type=str, default="normal", choices=["no_format", "ow_format", "yn_format"])
     return parser
