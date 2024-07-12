@@ -153,7 +153,7 @@ python chair.py --cap_file ../path/to/file --coco_path /path/to/coco_val2014_ann
 **Note**: 
 
 1. The CHAIR question file and evaluation file refer to [yuezih/less-is-more](https://github.com/yuezih/less-is-more), please check the repo for more details
-2. The arguments for each task are different and depend on the task requirements. Please check the details in `experiments/gen_scripts` and `experiments/eval_scripts`.
+2. The arguments for each task are different and depend on the task requirements, some arguments should be set to your own path. Please check the details in `experiments/gen_scripts` and `experiments/eval_scripts`.
 
 ## :chart_with_upwards_trend: Experiments
 
