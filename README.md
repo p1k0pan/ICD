@@ -6,7 +6,7 @@ Official implementation of [Mitigating Hallucinations in Large Vision-Language M
 
 ## :eyes: Overview
 
-
+![image](https://github.com/p1k0pan/ICD/blob/main/figs/Screenshot%202024-09-02%20at%2017.17.25.png)
 
 ## :star: Setup
 
