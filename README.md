@@ -176,14 +176,24 @@ python chair.py --cap_file ../path/to/file --coco_path /path/to/coco_val2014_ann
 If you find our project useful, we hope you can star our repo and kindly cite:
 
 ```
-@misc{wang2024mitigatinghallucinationslargevisionlanguage,
-      title={Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding}, 
-      author={Xintong Wang and Jingheng Pan and Liang Ding and Chris Biemann},
-      year={2024},
-      eprint={2403.18715},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2403.18715}, 
+@inproceedings{wang-etal-2024-mitigating,
+    title = "Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding",
+    author = "Wang, Xintong  and
+      Pan, Jingheng  and
+      Ding, Liang  and
+      Biemann, Chris",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.937",
+    doi = "10.18653/v1/2024.findings-acl.937",
+    pages = "15840--15853",
+    abstract = "Large Vision-Language Models (LVLMs) are increasingly adept at generating contextually detailed and coherent responses from visual inputs. However, their application in multimodal decision-making and open-ended generation is hindered by a notable rate of hallucinations, where generated text inaccurately represents the visual contents. To address this issue, this paper introduces the Instruction Contrastive Decoding (ICD) method, a novel approach designed to reduce hallucinations during LVLM inference. Our method is inspired by our observation that what we call disturbance instructions significantly exacerbate hallucinations in multimodal fusion modules. ICD contrasts distributions from standard and instruction disturbance, thereby increasing alignment uncertainty and effectively subtracting hallucinated concepts from the original distribution. Through comprehensive experiments on discriminative benchmarks (POPE and MME) and a generative benchmark (LLaVa-Bench), we demonstrate that ICD significantly mitigates both object-level and attribute-level hallucinations. Moreover, our method not only addresses hallucinations but also significantly enhances the general perception and recognition capabilities of LVLMs.",
 }
 ```
 
