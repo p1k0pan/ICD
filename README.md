@@ -2,7 +2,7 @@
 
 <!-- **ICD:Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding** -->
 
-Official implementation of [Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding](https://arxiv.org/abs/2403.18715)
+Official implementation of [Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding](https://aclanthology.org/2024.findings-acl.937.pdf)
 
 ## :eyes: Overview
 
@@ -161,7 +161,7 @@ python chair.py --cap_file ../path/to/file --coco_path /path/to/coco_val2014_ann
 
   ![pope](figs/pope.png)
 
-  Tabel 1(Part 1): The default under methods denotes the standard decoding, whereas VCD represents [Visual Contrastive Decoding [CVPR2024]](https://arxiv.org/abs/2311.16922), and ICD is our instruction contrastive decoding. The best performances within each setting are **bolded** 
+  Tabel 1(Part 1): The default under methods denotes the standard ¸decoding, whereas VCD represents [Visual Contrastive Decoding [CVPR2024]](https://arxiv.org/abs/2311.16922), and ICD is our instruction contrastive decoding. The best performances within each setting are **bolded** 
 
 - **The efficacy of ICD on MME**
 
@@ -169,7 +169,7 @@ python chair.py --cap_file ../path/to/file --coco_path /path/to/coco_val2014_ann
 
   Figure3: : Performance on MME full benchmark on InstructBLIP.
 
-- Please refer to [our paper](https://arxiv.org/abs/2403.18715) for more detailed experimental results.
+- Please refer to [our paper](https://aclanthology.org/2024.findings-acl.937.pdf) for more detailed experimental results.
 
 ## :memo: Citation
 
